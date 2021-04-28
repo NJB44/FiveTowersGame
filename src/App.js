@@ -4,17 +4,17 @@ import {pointRotate} from "geometric";
 
 function App() {
 
-  function getCircles(cx, cy, numc, largestR, diff){
-    let circles = [];
-
-    let currR = largestR;
-    for (let i=0; i < numc; i++){
-      circles.push(<circle class="circleClass" cx={cx} cy={cy} r={largestR} stroke="black" fill-opacity="0" />);
-      currR = currR - diff;
-    };
-
-    return circles;
-  };
+//  function getCircles(cx, cy, numc, largestR, diff){
+//    let circles = [];
+//
+//   let currR = largestR;
+//    for (let i=0; i < numc; i++){
+//      circles.push(<circle class="circleClass" cx={cx} cy={cy} r={largestR} stroke="black" fill-opacity="0" />);
+//      currR = currR - diff;
+//    };
+//
+//    return circles;
+//  };
 
 //Hardcoding values now just to test
   let x1Start="500";
